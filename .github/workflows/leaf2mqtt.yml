@@ -1,13 +1,15 @@
 name: Publish Docker image
 
-on:
-  push:
-    paths:
-      - 'pubspec.*'
-      - 'src/**'
-      - 'Dockerfile'
-    branches:
-      - main
+#on:
+#  push:
+#    paths:
+#      - 'pubspec.*'
+#      - 'src/**'
+#      - 'Dockerfile'
+#    branches:
+#      - main
+
+on: workflow_dispatch
 
 jobs:
   push_to_registry:
