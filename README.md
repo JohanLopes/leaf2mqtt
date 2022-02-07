@@ -41,6 +41,8 @@ You can use pre-built images from here: https://hub.docker.com/r/yp87/leaf2mqtt
 
 tag example: `yp87/leaf2mqtt:latest`
 
+Available platforms: `linux/amd64` `linux/arm64`
+
 ### Building the image
 
     docker build --tag leaf2mqtt .
