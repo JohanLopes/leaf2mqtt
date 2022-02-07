@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: yp87/leaf2mqtt
+          images: johanlopes/leaf2mqtt
           tags: |
             type=raw,value=${{ github.run_number }}
             type=raw,value=latest
